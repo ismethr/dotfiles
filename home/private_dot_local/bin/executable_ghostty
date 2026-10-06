@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+if [ -x /usr/bin/ghostty ]; then
+    exec env -u GTK_IM_MODULE /usr/bin/ghostty "$@"
+fi
+printf '%s\n' 'Ghostty 尚未安装，暂时使用 Alacritty' >&2
+exec alacritty "$@"

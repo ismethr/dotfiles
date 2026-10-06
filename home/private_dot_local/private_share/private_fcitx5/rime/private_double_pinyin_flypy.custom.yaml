@@ -1,0 +1,8 @@
+# Keep the upstream Xiaohe key map and use the rime-ice dictionaries.
+patch:
+  translator/enable_user_dict: true
+  translator/enable_word_completion: true
+  translator/max_sentences: 2
+  switches/@2/reset: 0  # Simplified Chinese on session creation.
+  switches/@3/reset: 0  # Emoji available from F4, initially off.
+  switches/@4/reset: 0  # Half-width characters on session creation.

@@ -1,0 +1,3 @@
+// Noctalia v5 provides the polkit agent and clipboard service
+spawn-at-startup "noctalia"
+spawn-at-startup "fcitx5" "-d"

@@ -1,0 +1,27 @@
+    window-rule {
+        geometry-corner-radius 8 // Set every window radius to 8
+        clip-to-geometry true
+    }
+
+    window-rule {
+        match app-id="fcitx"
+        open-floating true
+    }
+
+    // Waydroid 窗口规则 - 浮动模式，允许拖拽
+    window-rule {
+        match app-id="Waydroid"
+        open-floating true
+    }
+
+    // Waydroid 应用窗口 - 允许浮动
+    window-rule {
+        match app-id=".*"
+        draw-border-with-background false
+    }
+
+    layer-rule {
+        match namespace="^noctalia-wallpaper*"
+        place-within-backdrop true
+    }
+

@@ -1,0 +1,590 @@
+[
+  {
+    "target": ".config/Kvantum/Nordic-Darker-Solid/Nordic-Darker-Solid.kvconfig",
+    "source": "dot_config/Kvantum/Nordic-Darker-Solid/Nordic-Darker-Solid.kvconfig"
+  },
+  {
+    "target": ".config/Kvantum/Nordic-Darker-Solid/Nordic-Darker-Solid.svg",
+    "source": "dot_config/Kvantum/Nordic-Darker-Solid/Nordic-Darker-Solid.svg"
+  },
+  {
+    "target": ".config/Kvantum/kvantum.kvconfig",
+    "source": "dot_config/Kvantum/kvantum.kvconfig"
+  },
+  {
+    "target": ".config/alacritty/alacritty.toml",
+    "source": "dot_config/alacritty/alacritty.toml"
+  },
+  {
+    "target": ".config/alacritty/themes/noctalia.toml",
+    "source": "dot_config/alacritty/themes/noctalia.toml"
+  },
+  {
+    "target": ".config/btop/btop.conf",
+    "source": "dot_config/btop/btop.conf"
+  },
+  {
+    "target": ".config/btop/themes/noctalia.theme",
+    "source": "dot_config/btop/themes/noctalia.theme"
+  },
+  {
+    "target": ".config/cava/config",
+    "source": "dot_config/cava/config"
+  },
+  {
+    "target": ".config/cava/shaders/bar_spectrum.frag",
+    "source": "dot_config/cava/shaders/bar_spectrum.frag"
+  },
+  {
+    "target": ".config/cava/shaders/eye_of_phi.frag",
+    "source": "dot_config/cava/shaders/eye_of_phi.frag"
+  },
+  {
+    "target": ".config/cava/shaders/northern_lights.frag",
+    "source": "dot_config/cava/shaders/northern_lights.frag"
+  },
+  {
+    "target": ".config/cava/shaders/pass_through.vert",
+    "source": "dot_config/cava/shaders/pass_through.vert"
+  },
+  {
+    "target": ".config/cava/shaders/spectrogram.frag",
+    "source": "dot_config/cava/shaders/spectrogram.frag"
+  },
+  {
+    "target": ".config/cava/shaders/winamp_line_style_spectrum.frag",
+    "source": "dot_config/cava/shaders/winamp_line_style_spectrum.frag"
+  },
+  {
+    "target": ".config/cava/themes/morandi",
+    "source": "dot_config/cava/themes/morandi"
+  },
+  {
+    "target": ".config/cava/themes/solarized_dark",
+    "source": "dot_config/cava/themes/solarized_dark"
+  },
+  {
+    "target": ".config/cava/themes/tricolor",
+    "source": "dot_config/cava/themes/tricolor"
+  },
+  {
+    "target": ".config/environment.d/90-fcitx5.conf",
+    "source": "dot_config/environment.d/90-fcitx5.conf"
+  },
+  {
+    "target": ".config/environment.d/95-kde-colors.conf",
+    "source": "dot_config/environment.d/95-kde-colors.conf"
+  },
+  {
+    "target": ".config/environment.d/wayland-electron.conf",
+    "source": "dot_config/environment.d/wayland-electron.conf"
+  },
+  {
+    "target": ".config/environment.d/wayland-qt.conf",
+    "source": "dot_config/environment.d/wayland-qt.conf"
+  },
+  {
+    "target": ".config/fastfetch/avatar.png",
+    "source": "dot_config/fastfetch/avatar.png"
+  },
+  {
+    "target": ".config/fastfetch/config.jsonc",
+    "source": "dot_config/fastfetch/config.jsonc"
+  },
+  {
+    "target": ".config/fcitx5/conf/classicui.conf",
+    "source": "dot_config/fcitx5/private_conf/classicui.conf"
+  },
+  {
+    "target": ".config/fcitx5/conf/rime.conf",
+    "source": "dot_config/fcitx5/private_conf/rime.conf"
+  },
+  {
+    "target": ".config/fcitx5/config",
+    "source": "dot_config/fcitx5/config"
+  },
+  {
+    "target": ".config/fcitx5/profile",
+    "source": "dot_config/fcitx5/private_profile"
+  },
+  {
+    "target": ".config/fish/conf.d/lanrhyme-path.fish",
+    "source": "dot_config/fish/conf.d/lanrhyme-path.fish"
+  },
+  {
+    "target": ".config/fish/config.fish",
+    "source": "dot_config/fish/config.fish"
+  },
+  {
+    "target": ".config/fontconfig/conf.d/01-cjk-fallback.conf",
+    "source": "dot_config/fontconfig/conf.d/01-cjk-fallback.conf"
+  },
+  {
+    "target": ".config/fontconfig/conf.d/01-fira-sans-cjk-fallback.conf",
+    "source": "dot_config/fontconfig/conf.d/01-fira-sans-cjk-fallback.conf"
+  },
+  {
+    "target": ".config/ghostty/config",
+    "source": "dot_config/ghostty/config"
+  },
+  {
+    "target": ".config/ghostty/shaders/cursor.frag",
+    "source": "dot_config/ghostty/shaders/cursor.frag"
+  },
+  {
+    "target": ".config/ghostty/theme",
+    "source": "dot_config/ghostty/theme"
+  },
+  {
+    "target": ".config/gtk-3.0/gtk.css",
+    "source": "dot_config/gtk-3.0/gtk.css"
+  },
+  {
+    "target": ".config/gtk-3.0/noctalia.css",
+    "source": "dot_config/gtk-3.0/noctalia.css"
+  },
+  {
+    "target": ".config/gtk-3.0/settings.ini",
+    "source": "dot_config/gtk-3.0/settings.ini"
+  },
+  {
+    "target": ".config/gtk-4.0/gtk.css",
+    "source": "dot_config/gtk-4.0/gtk.css"
+  },
+  {
+    "target": ".config/gtk-4.0/noctalia.css",
+    "source": "dot_config/gtk-4.0/noctalia.css"
+  },
+  {
+    "target": ".config/gtk-4.0/settings.ini",
+    "source": "dot_config/gtk-4.0/settings.ini"
+  },
+  {
+    "target": ".config/kando-flags.conf",
+    "source": "dot_config/kando-flags.conf"
+  },
+  {
+    "target": ".config/kando/config.json",
+    "source": "dot_config/kando/config.json"
+  },
+  {
+    "target": ".config/kando/electron-flags.conf",
+    "source": "dot_config/kando/electron-flags.conf"
+  },
+  {
+    "target": ".config/kando/menus.json",
+    "source": "dot_config/kando/menus.json"
+  },
+  {
+    "target": ".config/krita/morandi_theme.json",
+    "source": "dot_config/krita/morandi_theme.json"
+  },
+  {
+    "target": ".config/micro/colorschemes/catppuccin-frappe.micro",
+    "source": "dot_config/micro/colorschemes/catppuccin-frappe.micro"
+  },
+  {
+    "target": ".config/micro/colorschemes/catppuccin-latte.micro",
+    "source": "dot_config/micro/colorschemes/catppuccin-latte.micro"
+  },
+  {
+    "target": ".config/micro/colorschemes/catppuccin-macchiato.micro",
+    "source": "dot_config/micro/colorschemes/catppuccin-macchiato.micro"
+  },
+  {
+    "target": ".config/micro/colorschemes/catppuccin-mocha.micro",
+    "source": "dot_config/micro/colorschemes/catppuccin-mocha.micro"
+  },
+  {
+    "target": ".config/micro/settings.json",
+    "source": "dot_config/micro/settings.json"
+  },
+  {
+    "target": ".config/niri/cfg/animation.kdl",
+    "source": "dot_config/niri/cfg/animation.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/autostart.kdl",
+    "source": "dot_config/niri/cfg/autostart.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/colors.kdl",
+    "source": "dot_config/niri/cfg/colors.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/display.kdl",
+    "source": "dot_config/niri/cfg/display.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/input.kdl",
+    "source": "dot_config/niri/cfg/input.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/keybinds.kdl",
+    "source": "dot_config/niri/cfg/keybinds.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/layout.kdl",
+    "source": "dot_config/niri/cfg/layout.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/misc.kdl",
+    "source": "dot_config/niri/cfg/misc.kdl"
+  },
+  {
+    "target": ".config/niri/cfg/rules.kdl",
+    "source": "dot_config/niri/cfg/rules.kdl"
+  },
+  {
+    "target": ".config/niri/config.kdl",
+    "source": "dot_config/niri/config.kdl"
+  },
+  {
+    "target": ".config/noctalia/apply-morandi.sh",
+    "source": "dot_config/noctalia/executable_apply-morandi.sh"
+  },
+  {
+    "target": ".config/noctalia/colors.json",
+    "source": "dot_config/noctalia/private_colors.json"
+  },
+  {
+    "target": ".config/noctalia/lanrhyme.toml",
+    "source": "dot_config/noctalia/lanrhyme.toml"
+  },
+  {
+    "target": ".config/noctalia/morandi-gen.py",
+    "source": "dot_config/noctalia/executable_morandi-gen.py"
+  },
+  {
+    "target": ".config/noctalia/palettes/Morandi.json",
+    "source": "dot_config/noctalia/palettes/private_Morandi.json"
+  },
+  {
+    "target": ".config/nvim/.gitignore",
+    "source": "dot_config/nvim/dot_gitignore"
+  },
+  {
+    "target": ".config/nvim/.neoconf.json",
+    "source": "dot_config/nvim/dot_neoconf.json"
+  },
+  {
+    "target": ".config/nvim/colors/morandi.lua",
+    "source": "dot_config/nvim/colors/morandi.lua"
+  },
+  {
+    "target": ".config/nvim/init.lua",
+    "source": "dot_config/nvim/init.lua"
+  },
+  {
+    "target": ".config/nvim/lazy-lock.json",
+    "source": "dot_config/nvim/lazy-lock.json"
+  },
+  {
+    "target": ".config/nvim/lazyvim.json",
+    "source": "dot_config/nvim/lazyvim.json"
+  },
+  {
+    "target": ".config/nvim/lua/config/autocmds.lua",
+    "source": "dot_config/nvim/lua/config/autocmds.lua"
+  },
+  {
+    "target": ".config/nvim/lua/config/keymaps.lua",
+    "source": "dot_config/nvim/lua/config/keymaps.lua"
+  },
+  {
+    "target": ".config/nvim/lua/config/lazy.lua",
+    "source": "dot_config/nvim/lua/config/lazy.lua"
+  },
+  {
+    "target": ".config/nvim/lua/config/options.lua",
+    "source": "dot_config/nvim/lua/config/options.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/alpha.lua",
+    "source": "dot_config/nvim/lua/plugins/alpha.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/cmp.lua",
+    "source": "dot_config/nvim/lua/plugins/cmp.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/colorscheme.lua",
+    "source": "dot_config/nvim/lua/plugins/colorscheme.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/cursor.lua",
+    "source": "dot_config/nvim/lua/plugins/cursor.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/dashboard.lua",
+    "source": "dot_config/nvim/lua/plugins/dashboard.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/editor.lua",
+    "source": "dot_config/nvim/lua/plugins/editor.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/format.lua",
+    "source": "dot_config/nvim/lua/plugins/format.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/gitsigns.lua",
+    "source": "dot_config/nvim/lua/plugins/gitsigns.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/guide.lua",
+    "source": "dot_config/nvim/lua/plugins/guide.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/lang.lua",
+    "source": "dot_config/nvim/lua/plugins/lang.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/lint.lua",
+    "source": "dot_config/nvim/lua/plugins/lint.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/lsp.lua",
+    "source": "dot_config/nvim/lua/plugins/lsp.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/lualine.lua",
+    "source": "dot_config/nvim/lua/plugins/lualine.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/neo-tree.lua",
+    "source": "dot_config/nvim/lua/plugins/neo-tree.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/telescope.lua",
+    "source": "dot_config/nvim/lua/plugins/telescope.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/textobjects.lua",
+    "source": "dot_config/nvim/lua/plugins/textobjects.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/themes/duskrose/init.lua",
+    "source": "dot_config/nvim/lua/plugins/themes/duskrose/init.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/themes/morandi/init.lua",
+    "source": "dot_config/nvim/lua/plugins/themes/morandi/init.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/treesitter.lua",
+    "source": "dot_config/nvim/lua/plugins/treesitter.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/vscode-like.lua",
+    "source": "dot_config/nvim/lua/plugins/vscode-like.lua"
+  },
+  {
+    "target": ".config/nvim/lua/plugins/vscode.lua",
+    "source": "dot_config/nvim/lua/plugins/vscode.lua"
+  },
+  {
+    "target": ".config/nvim/stylua.toml",
+    "source": "dot_config/nvim/stylua.toml"
+  },
+  {
+    "target": ".config/obs-studio/themes/Yami_Morandi.ovt",
+    "source": "dot_config/obs-studio/themes/Yami_Morandi.ovt"
+  },
+  {
+    "target": ".config/qt5ct/qt5ct.conf",
+    "source": "dot_config/qt5ct/qt5ct.conf"
+  },
+  {
+    "target": ".config/starship.toml",
+    "source": "dot_config/starship.toml"
+  },
+  {
+    "target": ".config/superfile/config.toml",
+    "source": "dot_config/superfile/config.toml"
+  },
+  {
+    "target": ".config/superfile/hotkeys.toml",
+    "source": "dot_config/superfile/hotkeys.toml"
+  },
+  {
+    "target": ".config/superfile/theme/0x96f.toml",
+    "source": "dot_config/superfile/theme/0x96f.toml"
+  },
+  {
+    "target": ".config/superfile/theme/ayu-dark.toml",
+    "source": "dot_config/superfile/theme/ayu-dark.toml"
+  },
+  {
+    "target": ".config/superfile/theme/blood.toml",
+    "source": "dot_config/superfile/theme/blood.toml"
+  },
+  {
+    "target": ".config/superfile/theme/catppuccin-frappe.toml",
+    "source": "dot_config/superfile/theme/catppuccin-frappe.toml"
+  },
+  {
+    "target": ".config/superfile/theme/catppuccin-latte.toml",
+    "source": "dot_config/superfile/theme/catppuccin-latte.toml"
+  },
+  {
+    "target": ".config/superfile/theme/catppuccin-macchiato.toml",
+    "source": "dot_config/superfile/theme/catppuccin-macchiato.toml"
+  },
+  {
+    "target": ".config/superfile/theme/catppuccin-mocha.toml",
+    "source": "dot_config/superfile/theme/catppuccin-mocha.toml"
+  },
+  {
+    "target": ".config/superfile/theme/dracula.toml",
+    "source": "dot_config/superfile/theme/dracula.toml"
+  },
+  {
+    "target": ".config/superfile/theme/everforest-dark-hard.toml",
+    "source": "dot_config/superfile/theme/everforest-dark-hard.toml"
+  },
+  {
+    "target": ".config/superfile/theme/everforest-dark-medium.toml",
+    "source": "dot_config/superfile/theme/everforest-dark-medium.toml"
+  },
+  {
+    "target": ".config/superfile/theme/gruvbox-dark-hard.toml",
+    "source": "dot_config/superfile/theme/gruvbox-dark-hard.toml"
+  },
+  {
+    "target": ".config/superfile/theme/gruvbox.toml",
+    "source": "dot_config/superfile/theme/gruvbox.toml"
+  },
+  {
+    "target": ".config/superfile/theme/hacks.toml",
+    "source": "dot_config/superfile/theme/hacks.toml"
+  },
+  {
+    "target": ".config/superfile/theme/kaolin.toml",
+    "source": "dot_config/superfile/theme/kaolin.toml"
+  },
+  {
+    "target": ".config/superfile/theme/monokai.toml",
+    "source": "dot_config/superfile/theme/monokai.toml"
+  },
+  {
+    "target": ".config/superfile/theme/nord.toml",
+    "source": "dot_config/superfile/theme/nord.toml"
+  },
+  {
+    "target": ".config/superfile/theme/onedark.toml",
+    "source": "dot_config/superfile/theme/onedark.toml"
+  },
+  {
+    "target": ".config/superfile/theme/poimandres.toml",
+    "source": "dot_config/superfile/theme/poimandres.toml"
+  },
+  {
+    "target": ".config/superfile/theme/rose-pine.toml",
+    "source": "dot_config/superfile/theme/rose-pine.toml"
+  },
+  {
+    "target": ".config/superfile/theme/sugarplum.toml",
+    "source": "dot_config/superfile/theme/sugarplum.toml"
+  },
+  {
+    "target": ".config/superfile/theme/tokyonight.toml",
+    "source": "dot_config/superfile/theme/tokyonight.toml"
+  },
+  {
+    "target": ".local/bin/ghostty",
+    "source": "private_dot_local/bin/executable_ghostty"
+  },
+  {
+    "target": ".local/bin/kando-niri.sh",
+    "source": "private_dot_local/bin/executable_kando-niri.sh"
+  },
+  {
+    "target": ".local/bin/obs",
+    "source": "private_dot_local/bin/executable_obs"
+  },
+  {
+    "target": ".local/share/color-schemes/Morandi-dark.colors",
+    "source": "private_dot_local/private_share/color-schemes/Morandi-dark.colors"
+  },
+  {
+    "target": ".local/share/fcitx5/rime/default.custom.yaml",
+    "source": "private_dot_local/private_share/private_fcitx5/rime/default.custom.yaml"
+  },
+  {
+    "target": ".local/share/fcitx5/rime/double_pinyin_flypy.custom.yaml",
+    "source": "private_dot_local/private_share/private_fcitx5/rime/private_double_pinyin_flypy.custom.yaml"
+  },
+  {
+    "target": ".local/share/fcitx5/rime/rime_ice.custom.yaml",
+    "source": "private_dot_local/private_share/private_fcitx5/rime/rime_ice.custom.yaml"
+  },
+  {
+    "target": ".local/share/fcitx5/themes/bamboo-dark/highlight.svg",
+    "source": "private_dot_local/private_share/private_fcitx5/themes/bamboo-dark/highlight.svg"
+  },
+  {
+    "target": ".local/share/fcitx5/themes/bamboo-dark/panel.svg",
+    "source": "private_dot_local/private_share/private_fcitx5/themes/bamboo-dark/panel.svg"
+  },
+  {
+    "target": ".local/share/fcitx5/themes/bamboo-dark/theme.conf",
+    "source": "private_dot_local/private_share/private_fcitx5/themes/bamboo-dark/theme.conf"
+  },
+  {
+    "target": ".local/share/fcitx5/themes/morandi/highlight.svg",
+    "source": "private_dot_local/private_share/private_fcitx5/themes/morandi/highlight.svg"
+  },
+  {
+    "target": ".local/share/fcitx5/themes/morandi/panel.svg",
+    "source": "private_dot_local/private_share/private_fcitx5/themes/morandi/panel.svg"
+  },
+  {
+    "target": ".local/share/fcitx5/themes/morandi/theme.conf",
+    "source": "private_dot_local/private_share/private_fcitx5/themes/morandi/theme.conf"
+  },
+  {
+    "target": ".local/share/krita/color-schemes/Morandi-System.colors",
+    "source": "private_dot_local/private_share/krita/color-schemes/Morandi-System.colors"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/clipboard-osd/main.luau",
+    "source": "private_dot_local/private_share/noctalia/plugins/clipboard-osd/main.luau"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/clipboard-osd/plugin.toml",
+    "source": "private_dot_local/private_share/noctalia/plugins/clipboard-osd/plugin.toml"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/micyou_service.luau",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/micyou_service.luau"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/panel.luau",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/panel.luau"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/plugin.toml",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/plugin.toml"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/shortcut.luau",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/shortcut.luau"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/translations/en.json",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/translations/en.json"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/translations/zh-Hans.json",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/translations/zh-Hans.json"
+  },
+  {
+    "target": ".local/share/noctalia/plugins/micyou/widget.luau",
+    "source": "private_dot_local/private_share/noctalia/plugins/micyou/widget.luau"
+  },
+  {
+    "target": "Pictures/WallPapers/kita.png",
+    "source": "Pictures/WallPapers/kita.png"
+  }
+]

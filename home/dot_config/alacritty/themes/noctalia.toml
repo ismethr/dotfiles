@@ -1,0 +1,66 @@
+# Auto-generated Morandi theme by morandi-gen.py
+[colors.primary]
+background = '#1b1a17'
+foreground = '#f2f2f2'
+
+[colors.cursor]
+text = '#1a1a18'
+cursor = '#afac9c'
+
+[colors.vi_mode_cursor]
+text = '#1a1a18'
+cursor = '#acac9f'
+
+[colors.search.matches]
+foreground = '#1a1a18'
+background = '#bda989'
+
+[colors.search.focused_match]
+foreground = '#1a1a18'
+background = '#929fb7'
+
+[colors.footer_bar]
+foreground = '#f2f2f2'
+background = '#121211'
+
+[colors.hints.start]
+foreground = '#1a1a18'
+background = '#bda989'
+
+[colors.hints.end]
+foreground = '#1a1a18'
+background = '#a899b9'
+
+[colors.selection]
+text = '#f2f2f2'
+background = '#403f39'
+
+[colors.normal]
+black = '#383732'
+red = '#bd8d8b'
+green = '#a8b490'
+yellow = '#bda989'
+blue = '#929fb7'
+magenta = '#a899b9'
+cyan = '#94b2b7'
+white = '#f2f2f2'
+
+[colors.bright]
+black = '#403f39'
+red = '#c59493'
+green = '#b0bc98'
+yellow = '#c5b190'
+blue = '#9aa7bf'
+magenta = '#b0a1c0'
+cyan = '#9bbabf'
+white = '#f2f2f2'
+
+[colors.dim]
+black = '#302f2c'
+red = '#b58684'
+green = '#a0ac89'
+yellow = '#b5a182'
+blue = '#8b98af'
+magenta = '#a192b1'
+cyan = '#8caaaf'
+white = '#dededd'

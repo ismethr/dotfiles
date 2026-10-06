@@ -1,0 +1,15 @@
+# Local preferences for the installed rime-ice schemas.
+patch:
+  schema_list:
+    - schema: double_pinyin_flypy
+    - schema: rime_ice
+  menu/page_size: 7
+  ascii_composer/good_old_caps_lock: true
+  ascii_composer/switch_key:
+    Caps_Lock: noop
+    Shift_L: commit_code
+    Shift_R: noop
+    Control_L: noop
+    Control_R: noop
+  key_binder/bindings/@0: {when: has_menu, accept: Shift+Tab, send: Up}
+  key_binder/bindings/@1: {when: has_menu, accept: Tab, send: Down}

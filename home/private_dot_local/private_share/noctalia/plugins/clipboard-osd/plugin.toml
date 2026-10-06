@@ -1,0 +1,10 @@
+id = "antigravity/clipboard-osd"
+name = "Clipboard OSD"
+version = "1.0.0"
+plugin_api = 3
+author = "Antigravity"
+description = "Shows an OSD when clipboard content is copied."
+
+[[service]]
+id = "service"
+entry = "main.luau"

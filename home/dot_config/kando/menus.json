@@ -1,0 +1,424 @@
+{
+  "version": "3.0.0",
+  "menus": [
+    {
+      "root": {
+        "type": "root",
+        "name": "Krita",
+        "icon": "palette",
+        "iconTheme": "material-symbols-rounded",
+        "activateWorkflow": {
+          "quickSelectKey": "Backspace",
+          "actions": [
+            {
+              "type": "close-menu"
+            }
+          ]
+        },
+        "children": [
+          {
+            "type": "submenu",
+            "name": "视图",
+            "icon": "visibility",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "button",
+                "name": "镜像画布",
+                "icon": "flip",
+                "iconTheme": "material-symbols-rounded",
+                "selectWorkflow": {
+                  "quickSelectKey": "X",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 50:1 50:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "切换面板",
+                "icon": "view_sidebar",
+                "iconTheme": "material-symbols-rounded",
+                "selectWorkflow": {
+                  "quickSelectKey": "Tab",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 15:1 15:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "色调调整",
+                "icon": "tune",
+                "iconTheme": "material-symbols-rounded",
+                "selectWorkflow": {
+                  "quickSelectKey": "H",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 29:1 22:1 22:0 29:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              }
+            ],
+            "activateWorkflow": {
+              "quickSelectKey": "Backspace",
+              "actions": [
+                {
+                  "type": "close-submenu"
+                }
+              ]
+            },
+            "angle": 0
+          },
+          {
+            "type": "button",
+            "name": "笔",
+            "icon": "stylus_pen",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 45,
+            "selectWorkflow": {
+              "quickSelectKey": "B",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 48:1 48:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "button",
+            "name": "橡皮",
+            "icon": "eraser_size_4",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 75,
+            "selectWorkflow": {
+              "quickSelectKey": "2",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 29:1 56:1 3:1 3:0 56:0 29:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "button",
+            "name": "油漆桶",
+            "icon": "format_color_fill",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 135,
+            "selectWorkflow": {
+              "quickSelectKey": "F",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 33:1 33:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "button",
+            "name": "变换",
+            "icon": "transform",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 165,
+            "selectWorkflow": {
+              "quickSelectKey": "T",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 29:1 20:1 20:0 29:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "button",
+            "name": "魔法棒",
+            "icon": "wand_stars",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 195,
+            "selectWorkflow": {
+              "quickSelectKey": "W",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 17:1 17:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "button",
+            "name": "柳叶笔",
+            "icon": "nest_eco_leaf",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 225,
+            "selectWorkflow": {
+              "quickSelectKey": "L",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 29:1 56:1 2:1 2:0 56:0 29:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "button",
+            "name": "套索",
+            "icon": "lasso_select",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 255,
+            "selectWorkflow": {
+              "quickSelectKey": "U",
+              "actions": [
+                {
+                  "type": "execute-command",
+                  "command": "sleep 0.3 && ydotool key 56:1 22:1 22:0 56:0",
+                  "detached": true,
+                  "isolated": false
+                },
+                {
+                  "type": "close-menu"
+                }
+              ]
+            }
+          },
+          {
+            "type": "submenu",
+            "name": "更多工具",
+            "icon": "more_horiz",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "button",
+                "name": "涂抹",
+                "icon": "water_drop",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 60,
+                "selectWorkflow": {
+                  "quickSelectKey": "S",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 42:1 31:1 31:0 42:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "吸管",
+                "icon": "colorize",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 165,
+                "selectWorkflow": {
+                  "quickSelectKey": "I",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 25:1 25:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "新建图层",
+                "icon": "note_add",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 210,
+                "selectWorkflow": {
+                  "quickSelectKey": "N",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 110:1 110:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "删除图层",
+                "icon": "delete",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 240,
+                "selectWorkflow": {
+                  "quickSelectKey": "D",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 42:1 111:1 111:0 42:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "向下合并",
+                "icon": "arrow_downward_alt",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 270,
+                "selectWorkflow": {
+                  "quickSelectKey": "M",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 29:1 18:1 18:0 29:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "锁定不透明度",
+                "icon": "lock",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 330,
+                "selectWorkflow": {
+                  "quickSelectKey": "O",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 29:1 56:1 38:1 38:0 56:0 29:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "button",
+                "name": "剪切蒙版",
+                "icon": "copy_all",
+                "iconTheme": "material-symbols-rounded",
+                "angle": 360,
+                "selectWorkflow": {
+                  "quickSelectKey": "C",
+                  "actions": [
+                    {
+                      "type": "execute-command",
+                      "command": "sleep 0.3 && ydotool key 29:1 42:1 34:1 34:0 42:0 29:0",
+                      "detached": true,
+                      "isolated": false
+                    },
+                    {
+                      "type": "close-menu"
+                    }
+                  ]
+                }
+              }
+            ],
+            "activateWorkflow": {
+              "quickSelectKey": "Backspace",
+              "actions": [
+                {
+                  "type": "close-submenu"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "shortcut": "Mod+Space",
+      "shortcutID": "krita-tools",
+      "useFixedPosition": true,
+      "fixedMenuPosition": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "anchored": false,
+      "hoverMode": false,
+      "tags": [],
+      "conditions": {
+        "appName": "org.kde.krita"
+      }
+    }
+  ],
+  "collections": []
+}
