@@ -10,6 +10,7 @@ enable_community_templates = false
 
 [bar.default]
 position = "left"
+thickness = 34
 background_opacity = 0.93
 margin_edge = 4
 margin_ends = 4
@@ -22,6 +23,7 @@ end = ["tray", "notifications", "clipboard", "micyou", "volume", "brightness", "
 [dock]
 enabled = true
 auto_hide = true
+reserve_space = false
 position = "bottom"
 active_monitor_only = true
 background_opacity = 0.61
@@ -38,6 +40,11 @@ ui_scale = 0.9
 
 [plugins]
 enabled = ["antigravity/clipboard-osd", "lanrhyme/micyou"]
+
+[widget.ram]
+type = "sysmon"
+stat = "ram_used"
+show_value = false
 
 [widget.micyou]
 type = "lanrhyme/micyou:widget"
