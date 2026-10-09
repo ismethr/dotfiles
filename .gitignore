@@ -1,7 +1,6 @@
 .git/
 __pycache__/
 *.pyc
-.publish-result.json
 *.log
 *.bak
 *.bak-*
@@ -18,6 +17,3 @@ user.yaml
 **/rime/build/
 **/rime/sync/
 **/rime/custom_phrase*.txt
-**/fish/fish_variables
-**/noctalia/plugins/*/settings.json
-**/noctalia/plugins/*/cache/

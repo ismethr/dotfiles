@@ -31,9 +31,6 @@ for entry in manifest:
     except UnicodeDecodeError:
         content = None
     if content is not None:
-        # This file uses Python f-strings: use its existing ROOT variable.
-        if str(relative) == '.config/noctalia/morandi-gen.py':
-            content = content.replace(str(HOME) + '/.config/fastfetch/avatar.png', '{ROOT}/.config/fastfetch/avatar.png')
         if str(HOME) in content:
             content = content.replace('{{', '{{ "{{" }}')
             content = content.replace(str(HOME), '{{ .chezmoi.homeDir }}')

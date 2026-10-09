@@ -1,33 +1,6 @@
-# CachyOS/Arch packages; package availability depends on configured repositories.
+# Packages added on top of a stock Omarchy install (Arch official repositories).
+# Omarchy already ships fcitx5, fcitx5-gtk, fcitx5-qt, noto-fonts-cjk and the Nerd Font.
 chezmoi
-git
-github-cli
-python
-fish
-starship
-niri
-noctalia
-ghostty
-alacritty
-neovim
-micro
-kando-bin
-fcitx5
 fcitx5-rime
-fcitx5-gtk
-fcitx5-qt
 fcitx5-configtool
-kvantum
-qt5ct
-btop
-cava
-superfile
-fastfetch
-chafa
-ydotool
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-ttf-jetbrains-mono-nerd
-cachyos-nord-gtk-theme-git
-tela-circle-icon-theme-standard
+adobe-source-han-sans-cn-fonts

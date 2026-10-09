@@ -1,4 +1,4 @@
-# Local preferences for the installed rime-ice schemas.
+# 小鹤双拼为默认，全拼（雾凇）可在 F4 菜单切换。
 patch:
   schema_list:
     - schema: double_pinyin_flypy
