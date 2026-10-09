@@ -1,0 +1,130 @@
+#!/bin/bash
+# Generate a fcitx5 classicui theme from the current Omarchy theme colors and font.
+# Runs from the theme-set and font-set hooks so the input method follows the system style.
+
+set -euo pipefail
+
+COLORS="$HOME/.local/state/omarchy/current/theme/colors.toml"
+THEME_DIR="$HOME/.local/share/fcitx5/themes/omarchy"
+CLASSICUI="$HOME/.config/fcitx5/conf/classicui.conf"
+
+[[ -f $COLORS ]] || exit 0
+
+color() {
+  sed -nE "s/^$1[[:space:]]*=[[:space:]]*\"(#[0-9A-Fa-f]{6})\".*/\1/p" "$COLORS" | head -1
+}
+
+bg=$(color background)
+fg=$(color foreground)
+accent=$(color accent)
+muted=$(color muted)
+selection=$(color selection)
+font=$(omarchy-font-current 2>/dev/null || echo "monospace")
+
+mkdir -p "$THEME_DIR"
+
+# Square corners and a 2px accent border, like Hyprland windows.
+cat >"$THEME_DIR/panel.svg" <<EOF
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" fill="$accent"/>
+<rect x="2" y="2" width="36" height="36" fill="$bg"/>
+</svg>
+EOF
+
+cat >"$THEME_DIR/highlight.svg" <<EOF
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<rect width="40" height="40" fill="$accent"/>
+</svg>
+EOF
+
+cat >"$THEME_DIR/theme.conf" <<EOF
+[Metadata]
+Name=omarchy
+Version=1
+Author=omarchy-fcitx5-theme
+Description=Generated from the current Omarchy theme
+
+[InputPanel]
+NormalColor=$fg
+HighlightCandidateColor=$bg
+HighlightColor=$fg
+HighlightBackgroundColor=$selection
+EnableBlur=False
+FullWidthHighlight=True
+PageButtonAlignment=Bottom
+
+[InputPanel/Background]
+Image=panel.svg
+
+[InputPanel/Background/Margin]
+Left=3
+Right=3
+Top=3
+Bottom=3
+
+[InputPanel/Highlight]
+Image=highlight.svg
+
+[InputPanel/Highlight/Margin]
+Left=6
+Right=6
+Top=2
+Bottom=2
+
+[InputPanel/ContentMargin]
+Left=6
+Right=6
+Top=6
+Bottom=6
+
+[InputPanel/TextMargin]
+Left=6
+Right=6
+Top=4
+Bottom=4
+
+
+[Menu]
+NormalColor=$fg
+HighlightCandidateColor=$bg
+Spacing=0
+
+[Menu/Background]
+Image=panel.svg
+
+[Menu/Background/Margin]
+Left=3
+Right=3
+Top=3
+Bottom=3
+
+[Menu/ContentMargin]
+Left=4
+Right=4
+Top=4
+Bottom=4
+
+[Menu/Highlight]
+Image=highlight.svg
+
+[Menu/Highlight/Margin]
+Left=4
+Right=4
+Top=2
+Bottom=2
+
+[Menu/Separator]
+Color=$muted
+EOF
+
+if [[ -f $CLASSICUI ]]; then
+  sed -i -E \
+    -e "s|^Theme=.*|Theme=omarchy|" \
+    -e "s|^DarkTheme=.*|DarkTheme=omarchy|" \
+    -e "s|^Font=.*|Font=\"$font 13\"|" \
+    -e "s|^MenuFont=.*|MenuFont=\"$font 13\"|" \
+    "$CLASSICUI"
+fi
+
+# Reload fcitx5 so the new theme applies without a restart.
+pgrep -x fcitx5 >/dev/null && fcitx5-remote -r >/dev/null 2>&1 || true

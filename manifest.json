@@ -160,6 +160,10 @@
     "source": "dot_config/gtk-4.0/settings.ini"
   },
   {
+    "target": ".config/hypr/input.lua",
+    "source": "dot_config/hypr/input.lua"
+  },
+  {
     "target": ".config/kando-flags.conf",
     "source": "dot_config/kando-flags.conf"
   },
@@ -392,6 +396,14 @@
     "source": "dot_config/obs-studio/themes/Yami_Morandi.ovt"
   },
   {
+    "target": ".config/omarchy/hooks/font-set.d/fcitx5-theme",
+    "source": "dot_config/omarchy/hooks/font-set.d/executable_fcitx5-theme"
+  },
+  {
+    "target": ".config/omarchy/hooks/theme-set.d/fcitx5-theme",
+    "source": "dot_config/omarchy/hooks/theme-set.d/executable_fcitx5-theme"
+  },
+  {
     "target": ".config/qt5ct/qt5ct.conf",
     "source": "dot_config/qt5ct/qt5ct.conf"
   },
@@ -502,6 +514,10 @@
   {
     "target": ".local/bin/obs",
     "source": "private_dot_local/bin/executable_obs"
+  },
+  {
+    "target": ".local/bin/omarchy-fcitx5-theme",
+    "source": "private_dot_local/bin/executable_omarchy-fcitx5-theme"
   },
   {
     "target": ".local/share/color-schemes/Morandi-dark.colors",

@@ -1,0 +1,3 @@
+#!/bin/bash
+# Regenerate the fcitx5 skin from the Omarchy theme.
+"$HOME/.local/bin/omarchy-fcitx5-theme"

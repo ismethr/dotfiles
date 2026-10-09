@@ -11,7 +11,8 @@
 | 终端 | [Ghostty](home/dot_config/ghostty)、[Alacritty](home/dot_config/alacritty) |
 | 命令行 | [Fish](home/dot_config/fish)、[Starship](home/dot_config/starship.toml) |
 | 编辑器 | [Neovim](home/dot_config/nvim)、[Micro](home/dot_config/micro) |
-| 输入法 | [Fcitx5](home/dot_config/fcitx5)、[Rime 自定义补丁](home/private_dot_local/private_share/private_fcitx5/rime) |
+| 输入法 | [Fcitx5](home/dot_config/fcitx5)、[Rime 自定义补丁](home/private_dot_local/private_share/private_fcitx5/rime)、[Omarchy 皮肤脚本](home/private_dot_local/bin/executable_omarchy-fcitx5-theme) |
+| Omarchy | [Hyprland 输入设置](home/dot_config/hypr/input.lua)、[主题／字体钩子](home/dot_config/omarchy/hooks) |
 | 环形菜单 | [Kando](home/dot_config/kando) |
 | 文件和系统监控 | [superfile](home/dot_config/superfile)、[btop](home/dot_config/btop)、[CAVA](home/dot_config/cava)、[Fastfetch](home/dot_config/fastfetch) |
 | 应用外观 | GTK、Kvantum Nordic、Qt、OBS、Krita、Fcitx5 竹简深色主题 |
@@ -23,8 +24,15 @@
 - 默认：雾凇小鹤双拼，简体、半角字符，横向七个候选。
 - 左 Shift 切换中英文，保留正在输入的原始编码；Caps Lock 保持大写锁定功能。
 - 空格选择当前候选，数字键选词，Tab／Shift+Tab 切换候选，`-`／`=` 或 Page Up／Page Down 翻页。
-- Win + Space 切换键盘和 Rime；F4 打开方案菜单，全拼作为备用。
+- Ctrl + Space 切换键盘和 Rime（Omarchy 中 Win + Space 是启动器）；F4 打开方案菜单，全拼作为备用。
 - 中英文状态按应用记忆，用户词库在本机学习；换壁纸保持候选方向。
+- 候选框皮肤由 `omarchy-fcitx5-theme` 按当前 Omarchy 主题配色和字体生成：直角、强调色边框；换主题或字体时通过 `theme-set`／`font-set` 钩子自动更新。
+
+### Omarchy 上的左 Shift
+
+Omarchy 默认键盘选项 `shift:both_capslock_cancel` 会让单独按下的左 Shift 在松开时变成 `Caps_Lock`，Rime 因此不切换中英文。[`input.lua`](home/dot_config/hypr/input.lua) 改为 `shift:rshift_both_capslock_cancel`：左 Shift 恢复正常；大写锁定为先按住左 Shift 再按右 Shift，单独按右 Shift 取消。
+
+Omarchy 用 systemd 用户服务 `omarchy-fcitx5.service` 运行 Fcitx5，重启请用 `systemctl --user restart omarchy-fcitx5`，不要手动运行 `fcitx5 -d`。
 
 ## 在新电脑恢复
 
